@@ -5,6 +5,7 @@ Ask Wikipedia is a browser (action) extension, built using [Chrome APIs](https:/
 Simply select a peice of text, right-click, and __Ask Wikipedia__
 
 ## Usage
+Currently, the extension is not available on the Chrome Web Store
 
 __To run:__
 
