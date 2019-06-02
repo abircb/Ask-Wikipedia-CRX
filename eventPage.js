@@ -1,7 +1,8 @@
+var id = "wiki";
 var title = "Ask Wikipedia";
 var contexts = ["selection"];
 chrome.contextMenus.create({
-  "id": "wiki",
+  "id": id,
   "title": title,
   "contexts": contexts
 });
@@ -22,5 +23,6 @@ chrome.contextMenus.onClicked.addListener(function(clickData){
 });
 
 function disambiguate (str) {
+  str = (str.toLowerCase()).trim();
   return str;
 }
