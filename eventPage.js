@@ -3,7 +3,7 @@ var contexts = ["selection"];
 chrome.contextMenus.create({
   "title": title,
   "contexts": contexts,
-  "id": "wiki"
+  "id": "wiki" + Date.now()
 });
 
 function fixedEncodeURI (str) {
@@ -11,7 +11,7 @@ function fixedEncodeURI (str) {
 }
 
 chrome.contextMenus.onClicked.addListener(function(clickData){
-  if (clickData.menuItemId == "wiki" && clickData.selectionText){
+  if (clickData.menuItemId.includes('wiki') && clickData.selectionText){
     var searchKey = disambiguate(clickData.selectionText);
     var wikiUrl = "https://en.wikipedia.org/wiki/Special:Search/" + fixedEncodeURI(searchKey);
     var createProperties = {
