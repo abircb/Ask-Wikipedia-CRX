@@ -5,8 +5,11 @@ Ask Wikipedia is a browser (action) extension, built using [Chrome APIs](https:/
 Simply select a peice of text, right-click, and __Ask Wikipedia__
 
 ## Usage
-Currently, the extension is not available on the Chrome Web Store
-
+The extension is not yet available on the Chrome Web Store, but will be soon.
 __To run:__
-
-[Load the unpacked extension](https://developer.chrome.com/extensions/getstarted#manifest) on Chrome
+<ul>
+  <li>Open the Extension Management page by navigating to <code>chrome://extensions</code> (The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions)</li>
+  <li>Enable Developer Mode by clicking the toggle switch next to Developer mode</li>
+  <li>Click the LOAD UNPACKED button and select the cloned LaTeX Cheat Sheet repository</li>
+  <li>Happy TeX'ing !</li>
+</ul>
