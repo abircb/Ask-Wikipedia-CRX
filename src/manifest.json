@@ -10,7 +10,7 @@
   },
   "default_locale": "en",
   "background": {
-    "scripts": ["js/eventPage.js"],
+    "scripts": ["/js/eventPage.js"],
     "persistent": false
   },
 

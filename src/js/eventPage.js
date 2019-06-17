@@ -3,12 +3,12 @@ var contexts = ["selection"];
 chrome.contextMenus.create({
   "title": title,
   "contexts": contexts,
-  "id": "wiki" + Date.now()
+  "id": "wiki"
 });
 
 function fixedEncodeURI (str) {
   return encodeURI(str).replace(/%5B/g, '[').replace(/%5D/g, ']');
-}
+}	
 
 chrome.contextMenus.onClicked.addListener(function(clickData){
   if (clickData.menuItemId.includes('wiki') && clickData.selectionText){
