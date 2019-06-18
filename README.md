@@ -13,6 +13,6 @@ __To run:__
 <ul>
   <li>Open the Extension Management page by navigating to <code>chrome://extensions</code> (The Extension Management page can also be opened by clicking on the Chrome menu, hovering over More Tools then selecting Extensions)</li>
   <li>Enable Developer Mode by clicking the toggle switch next to Developer mode</li>
-  <li>Click the LOAD UNPACKED button and select the cloned LaTeX Cheat Sheet repository</li>
-  <li>Happy TeX'ing !</li>
+  <li>Click the LOAD UNPACKED button and select the cloned Ask Wikipedia repository</li>
+  <li>Happy Wiki'ing !</li>
 </ul>
