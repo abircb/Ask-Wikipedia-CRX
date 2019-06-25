@@ -1,6 +1,6 @@
-# Ask Wikipedia
+# Ask Wikipedia 
 
-Ask Wikipedia is a browser (action) extension, built using [Chrome APIs](https://developers.chrome.com/extensions/api_index), for Chrome. It enables a lightning-fast one-click Wikipedia search using the [Special Search](https://en.wikipedia.org/wiki/Wikipedia:Special:Search) API, and a search algorithm that additionally disambiguates the search string. 
+<img src="/src/icons/icon16.png"> Ask Wikipedia is a browser (action) extension, built using [Chrome APIs](https://developers.chrome.com/extensions/api_index), for Chrome. It enables a lightning-fast one-click Wikipedia search using the [Special Search](https://en.wikipedia.org/wiki/Wikipedia:Special:Search) API, and a search algorithm that additionally disambiguates the search string. 
 
 ![screenshot](/screenshot.png)
 
