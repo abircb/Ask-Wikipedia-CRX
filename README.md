@@ -4,10 +4,12 @@
 
 ![screenshot](/screenshot.png)
 
-Simply select a peice of text, right-click, and __Ask Wikipedia__
+Simply select a piece of text, right-click, and __Ask Wikipedia__
 
 ## Usage
-The extension is not yet available on the Chrome Web Store, but will be soon.
+The extension is available on the Chrome Web Store. Check it out [here](https://chrome.google.com/webstore/detail/ask-wikipedia/logjebkkhbbcbnmmnlgphneelgiffhgf?hl=en&authuser=1). 
+
+You can also directly clone the repository and check out the source code.
 
 __To run:__
 <ul>
@@ -15,4 +17,4 @@ __To run:__
   <li>Enable Developer Mode by clicking the toggle switch next to Developer mode</li>
   <li>Click the LOAD UNPACKED button and select the cloned Ask Wikipedia repository</li>
   <li>Happy Wiki'ing !</li>
-</ul>
+</ul>.
