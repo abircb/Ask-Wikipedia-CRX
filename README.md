@@ -1,3 +1,8 @@
+![Chrome Web Store](https://img.shields.io/chrome-web-store/v/logjebkkhbbcbnmmnlgphneelgiffhgf)
+![Chrome Web Store](https://img.shields.io/chrome-web-store/users/logjebkkhbbcbnmmnlgphneelgiffhgf)
+![GitHub repo size](https://img.shields.io/github/repo-size/abircb/ask-wikipedia)
+![GitHub](https://img.shields.io/github/license/abircb/ask-wikipedia)
+
 # Ask Wikipedia 
 
 <img src="/src/icons/icon16.png"> Ask Wikipedia is a browser (action) extension, built using [Chrome APIs](https://developers.chrome.com/extensions/api_index), for Chrome. It enables a lightning-fast one-click Wikipedia search using the [Special Search](https://en.wikipedia.org/wiki/Wikipedia:Special:Search) API, and a search algorithm that additionally disambiguates the search string. 
